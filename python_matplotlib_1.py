@@ -11,7 +11,6 @@ ax.set_title('www.linuxidc.com - matplotlib Code Demo');
 ax.plot_surface(a, b, c, rstride=2, cstride=1, cmap=plt.cm.Spectral)
 #设置坐标轴标签
 ax.set_xlabel('A')
-
 ax.set_ylabel('B')
 ax.set_zlabel('C')
 plt.show()
